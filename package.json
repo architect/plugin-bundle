@@ -1,0 +1,20 @@
+{
+  "name": "@architect/plugin-bundle",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "sandbox",
+    "lint": "eslint . --fix"
+  },
+  "eslintConfig": {
+    "extends": "@architect/eslint-config",
+    "rules": {
+      "require-await": "off"
+    }
+  },
+  "devDependencies": {
+    "@architect/architect": "latest",
+    "@architect/eslint-config": "^1.0.0",
+    "eslint": "^7.28.0"
+  }
+}
